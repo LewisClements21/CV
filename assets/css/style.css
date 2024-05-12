@@ -38,6 +38,10 @@ h4 {
     font-weight: 300;
     color: #fafafa;
 }
+
+.inline-block {
+    display: inline-block;
+}
 /* ----------------------------------------------------Heading */
 header {
     margin: 0;
@@ -140,4 +144,46 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610
+}
+
+.contact-links {
+    padding-bottom: 15px;
+}
+
+.contact-links li a i {
+    width: 42px;
+    height: 42px;
+    padding: 12px 0;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
